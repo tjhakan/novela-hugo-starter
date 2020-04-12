@@ -8,10 +8,10 @@ sections:
   label: Content
 - type: document
   path: content/_index.md
-  label: Home
+  label: Ana Sayfa
 - type: directory
   path: content/post
-  label: Posts
+  label: Yazılar
   create: all
   match: "**/*"
   templates:
@@ -20,7 +20,7 @@ sections:
   label: Data
 - type: directory
   path: content/authors
-  label: Authors
+  label: Yazarlar
   create: all
   match: "**/_index.md"
   templates:
